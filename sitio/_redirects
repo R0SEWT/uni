@@ -1,0 +1,19 @@
+# Reglas de uni.rosewt.dev. Cada curso se publica en su propio sitio de Netlify (su «origen») y
+# aquí se monta en /<curso>/<entrega>/ con un proxy (status 200): la dirección no cambia. Ver README.
+#
+# Netlify usa la primera regla que coincide, así que las específicas van antes que los comodines.
+
+# --- Direcciones viejas que pasaron a uni (301 permanente; «!» aunque exista el archivo)
+https://concurrente.rosewt.dev/*  https://uni.rosewt.dev/concurrente/:splat  301!
+
+# --- Programación Concurrente y Distribuida (1ACC0065)
+# Origen: concurrente-rosewt, publicado por aire-distribuido/docs/presentacion/publicar.sh
+/concurrente/*        https://concurrente-rosewt.netlify.app/:splat   200
+
+# --- Tópicos en Ciencias de la Computación (1ACC0058), TB1 (KenKen)
+# Origen: kenken-tb1 (también en kenken.rosewt.dev)
+/cs-topics/tb1/*      https://kenken-tb1.netlify.app/:splat           200
+
+# --- Gerencia de Proyectos en Computación (1ASI0727), segundo avance del Grupo 05
+# Origen: sops-rosewt (también en sops.rosewt.dev)
+/gpp/av2/*            https://sops-rosewt.netlify.app/:splat          200

@@ -1,0 +1,5 @@
+# uni.rosewt.dev: no hay nada que construir. publicar.sh sube sitio/ y la función de borde de
+# netlify/edge-functions/ (la barra final). Las reglas de proxy están en sitio/_redirects.
+[build]
+  publish = "sitio"
+  command = ""

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>uni · Rody Vilchez</title>
+<meta name="description" content="Entregas y presentaciones de Rody Vilchez en Ciencias de la Computación, UPC.">
+<style>
+  :root {
+    --tinta: #10233B; --papel: #FFFFFF; --texto: #1A1D21; --suave: #52514E; --borde: #D8D7D2;
+    --azul: #2A78D6; --celeste: #86B6EF; --alto: #EB6834;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--papel); color: var(--texto);
+    font: 17px/1.5 Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  header { background: var(--tinta); color: #EEF1F5; padding: 56px 16px 48px; }
+  .ancho { max-width: 860px; margin: 0 auto; }
+  main { max-width: 860px; margin: 0 auto; padding: 32px 16px 56px; }
+  .eyebrow {
+    font: 600 13px/1.4 "IBM Plex Mono", ui-monospace, "Courier New", monospace;
+    letter-spacing: 0.12em; text-transform: uppercase; color: var(--celeste); margin: 0 0 10px;
+  }
+  h1 { font-size: clamp(30px, 6vw, 46px); line-height: 1.08; letter-spacing: -0.02em; margin: 0 0 12px; }
+  header p { margin: 0; color: #C9D1DA; max-width: 640px; }
+  h2 {
+    font-size: 15px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--suave);
+    margin: 36px 0 14px;
+  }
+  h2:first-child { margin-top: 0; }
+  .curso { margin: 0 0 22px; }
+  .curso h3 { font-size: 20px; line-height: 1.25; margin: 0 0 2px; letter-spacing: -0.01em; }
+  .curso .codigo { font: 500 13px/1.4 "IBM Plex Mono", ui-monospace, monospace; color: var(--suave); }
+  .entregas { list-style: none; padding: 0; margin: 10px 0 0; display: grid; gap: 10px; }
+  .entregas a {
+    display: block; border: 1px solid var(--borde); border-radius: 12px; padding: 14px 18px;
+    text-decoration: none; color: inherit; transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .entregas a:hover, .entregas a:focus-visible {
+    border-color: var(--azul); box-shadow: 0 6px 24px rgba(16, 35, 59, 0.12); outline: none;
+  }
+  .entregas .tag { font: 600 12px/1 "IBM Plex Mono", ui-monospace, monospace; color: var(--alto); letter-spacing: 0.1em; }
+  .entregas strong { display: block; font-size: 18px; margin: 6px 0 2px; }
+  .entregas span.d { color: var(--suave); font-size: 15px; }
+  .pie { color: var(--suave); font-size: 14px; margin-top: 40px; border-top: 1px solid var(--borde); padding-top: 16px; }
+  .pie a { color: var(--azul); }
+</style>
+</head>
+<body>
+<header>
+  <div class="ancho">
+    <p class="eyebrow">Ciencias de la Computación · UPC</p>
+    <h1>Entregas y presentaciones</h1>
+    <p>Rody Vilchez. Los trabajos de los cursos, con sus diapositivas y sus repositorios.</p>
+  </div>
+</header>
+<main>
+  <h2>Ciclo 2026-20</h2>
+
+  <section class="curso">
+    <h3>Programación Concurrente y Distribuida</h3>
+    <span class="codigo">1ACC0065 · Equipo 4: Aire Distribuido</span>
+    <ul class="entregas">
+      <li><a href="concurrente/pc3/">
+        <span class="tag">PC3 · ENTREGABLE 1</span>
+        <strong>El cargador concurrente y el K-Means paralelo</strong>
+        <span class="d">Calidad del aire con las lecturas de OEFA: limpieza, worker pool, speedup y tres niveles de aire.</span>
+      </a></li>
+    </ul>
+  </section>
+
+  <section class="curso">
+    <h3>Tópicos en Ciencias de la Computación</h3>
+    <span class="codigo">1ACC0058</span>
+    <ul class="entregas">
+      <li><a href="cs-topics/tb1/">
+        <span class="tag">TB1</span>
+        <strong>¿Qué sobrevive a una lectura equivocada?</strong>
+        <span class="d">El solver como verificador de la percepción en KenKen desde imagen.</span>
+      </a></li>
+    </ul>
+  </section>
+
+  <section class="curso">
+    <h3>Gerencia de Proyectos en Computación</h3>
+    <span class="codigo">1ASI0727 · Grupo 05</span>
+    <ul class="entregas">
+      <li><a href="gpp/av2/">
+        <span class="tag">SEGUNDO AVANCE</span>
+        <strong>Gobernanza de la deriva procedimental</strong>
+        <span class="d">Cuando el procedimiento escrito y el trabajo real no coinciden.</span>
+      </a></li>
+    </ul>
+  </section>
+
+  <h2>Fuera de los cursos</h2>
+  <section class="curso">
+    <h3>Rama estudiantil IEEE UPC</h3>
+    <span class="codigo">Capacitación, octubre 2026</span>
+    <ul class="entregas">
+      <li><a href="https://jev.rosewt.dev/">
+        <span class="tag">TALLER</span>
+        <strong>Jev playground</strong>
+        <span class="d">IA que devuelve decisiones con su probabilidad, no texto.</span>
+      </a></li>
+    </ul>
+  </section>
+
+  <p class="pie">Cada entrega se publica desde el repositorio de su curso; este sitio solo las reúne.
+    Fuente: <a href="https://github.com/R0SEWT/uni">github.com/R0SEWT/uni</a> ·
+    <a href="https://rosewt.dev">rosewt.dev</a></p>
+</main>
+</body>
+</html>
