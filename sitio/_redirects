@@ -10,6 +10,10 @@ https://concurrente.rosewt.dev/*  https://uni.rosewt.dev/concurrente/:splat  301
 # Origen: concurrente-rosewt, publicado por aire-distribuido/docs/presentacion/publicar.sh
 /concurrente/*        https://concurrente-rosewt.netlify.app/:splat   200
 
+# --- Metodología para Data Science (1ACC0240), Grupo 3 (Curva)
+# Origen: mds-rosewt, publicado por tetouan-power-forecast/docs/presentacion/publicar.sh
+/mds/*                https://mds-rosewt.netlify.app/:splat           200
+
 # --- Tópicos en Ciencias de la Computación (1ACC0058), TB1 (KenKen)
 # Origen: kenken-tb1 (también en kenken.rosewt.dev)
 /cs-topics/tb1/*      https://kenken-tb1.netlify.app/:splat           200
