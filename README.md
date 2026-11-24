@@ -12,6 +12,7 @@ publicar la PC4 no toca este repo, y este repo no carga 15 MB por deck.
 | Ruta | Curso | Origen (sitio de Netlify) | Se publica desde |
 |---|---|---|---|
 | `/concurrente/` | Programación Concurrente y Distribuida (1ACC0065) | `concurrente-rosewt` | `aire-distribuido/docs/presentacion/publicar.sh` |
+| `/mds/` | Metodología para Data Science (1ACC0240): el TB1 en `/mds/tb1/` | `mds-rosewt` | `tetouan-power-forecast/docs/presentacion/publicar.sh` |
 | `/cs-topics/tb1/` | Tópicos en Ciencias de la Computación (1ACC0058), TB1 | `kenken-tb1` | el repo del TB1 de KenKen |
 | `/gpp/av2/` | Gerencia de Proyectos en Computación (1ASI0727), segundo avance | `sops-rosewt` | `GPP-course` |
 | `/gpp/av3/` | Gerencia de Proyectos en Computación (1ASI0727), tercer avance | `gpp-av3-rosewt` | `GPP-course/course/av3/publicar.sh` |
