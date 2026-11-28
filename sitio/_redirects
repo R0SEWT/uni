@@ -25,3 +25,7 @@ https://concurrente.rosewt.dev/*  https://uni.rosewt.dev/concurrente/:splat  301
 # --- Gerencia de Proyectos en Computación (1ASI0727), tercer avance del Grupo 05
 # Origen: gpp-av3-rosewt, publicado por GPP-course/course/av3/publicar.sh
 /gpp/av3/*            https://gpp-av3-rosewt.netlify.app/:splat       200
+
+# --- Gerencia de Proyectos en Computación (1ASI0727), cuarto avance del Grupo 05
+# Origen: gpp-av4-rosewt, publicado por GPP-course/course/av4/publicar.sh
+/gpp/av4/*            https://gpp-av4-rosewt.netlify.app/:splat       200
